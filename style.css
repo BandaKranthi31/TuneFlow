@@ -19,19 +19,21 @@ html{
     font-style: normal;
 }
 body{
-    background-image: linear-gradient(#E1AFD1 5%,#C738BD 20%,#850F8D 65%);
+    background-image: linear-gradient(-25deg,#2F0428 0%,#1F1989 100%);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .header{
-    display: inline;
-
+    display: inline-block;
+    height: 12vh;
+    width: 100%;
+    background-color: var(--transparent-bg);
 }
 .heading{
     color: whitesmoke;
-    text-transform: capitalize;
+    text-transform:uppercase;
     margin-left: 0.3em;
-    border-bottom: 2px solid purple;
+    border-bottom: 2px solid var(--accent);
     display: inline-block;
     margin-top: 2em;
 }
@@ -41,4 +43,15 @@ body{
     margin-left: 12em;
     margin-top: 1.7em;
     margin-top: 1em;
+}
+.navbar{
+   text-align: center;
+}
+#navbarr{
+    margin-top: 1em;
+    height: 4vh;
+    border-radius:  15% 15% 15% 15%;
+    text-align: center;
+    width: 75vw;
+    background-color: #B5179E;
 }
