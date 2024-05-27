@@ -50,7 +50,8 @@ body{
 #navbarr{
     margin-top: 1em;
     height: 4vh;
-text-align: center;
+    text-align: center;
+    border-radius: 25px;
     width: 75vw;
     background-color: #B5179E;
 }
