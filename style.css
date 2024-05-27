@@ -1,3 +1,12 @@
+:root {
+    --linear-gradient-bg:linear-gradient(-25deg,#2F0428 0%,#1F1989 100%);
+    --tag-gradient-bg:linear-gradient(-60deg),#B5179E 0%,#3F37C9 100%;
+    --primary:#560BAD;
+    --accent:#F72585;
+    --white:#FFFFFF;
+    --transparent-bg:#D3CBDD;
+}
+
 *{
     margin: 0;
     padding: 0;
