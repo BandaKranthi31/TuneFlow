@@ -18,6 +18,14 @@ html{
     font-weight: 300;
     font-style: normal;
 }
+
+.wrapper {
+    width: 100%;
+    max-width: 700px;
+    margin-inline: auto;
+   /* border: 1px dashed yellow;*/ /* delete later*/
+}
+
 body{
     background-image: linear-gradient(-25deg,#2F0428 0%,#1F1989 100%);
     background-repeat: no-repeat;
@@ -54,4 +62,86 @@ body{
     border-radius: 25px;
     width: 75vw;
     background-color: #B5179E;
+}
+
+
+/*...Play Page Style...*/
+
+.cover {
+    max-width: 700px;
+    overflow: hidden;
+
+    /*border: 1px solid green;*/ /*delete later*/
+}
+
+.cover img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.details {
+    margin: 1rem;
+}
+
+.details__title {
+    color: var(--accent);
+    text-align: center;
+    font-size: 3rem;
+}
+
+.details__singer {
+    color: var(--white);
+    font-size: 1.5rem;
+}
+
+.progress-bar {
+    background-color: var(--primary);
+    border-radius: 100px;
+    max-height: 1rem;
+    margin-top: 1rem;
+}
+
+.details__time {
+    margin-top: 1rem;
+    display: flex;
+    color: var(--white);
+    justify-content: space-between;
+}
+
+.time-listening {
+    padding: 0.8rem;
+    background-color: var(--accent);
+}
+
+.time-left {
+    padding: 0.8rem;
+    background-color: var(--primary);
+}
+
+.controls {
+    padding: 1rem;
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.controls div {
+    width: 3rem;
+   /* border: 1px solid blue;*/
+}
+
+.controls svg {
+    width: 100%;
+    fill: var(--white);
+    border-radius: 50%;
+    padding: 10px;
+    background: var(--accent);
+}
+
+#pauseButton,
+#pauseButton svg {
+    width: 4rem;
 }
