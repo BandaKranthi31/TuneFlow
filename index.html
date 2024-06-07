@@ -1,55 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TuneFlow</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TuneFlow</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <div class="wrapper">
-    <section class="header">
-        <h2 class="heading">Tuneflow</h2>
-        <img src="Imgs/bg1.png" alt="background-Image-head" class="bg1head">
+  <header class="header">
+    <h1 class="tune">TUNE FLOW</h1>
+    <img class="logo" src="icons/logo.png" alt="logo">
+  </header>
+
+  <section class="search-bar-container" alt="search-bar">
+    <input placeholder="Search Music" type="search" name="song-name" class="search-bar">
+    <label for="music-searchbar" aria-hidden="true" class="search-icon-container">
+      <img src="./assets/search_icon.svg" alt="" class="search-icon">
+    </label>
+  </section>
+
+  <main class="music-categories">
+    <section class="music-section">
+      <div class="music-section-title">
+        <p class="music-title">ELECTRONIC MUSIC</p>
+      </div>
+      <div class="music-list">
+        <button class="song" alt="song-name">
+          <img src="./Imgs/covers/Faded.jpg" class="song-cover">
+          <p class="song-name">FADED</p>
+        </button>
+
+        <button class="song" alt="song-name">
+          <img src="./Imgs/covers/Sing-me-to-sleep.jpg" class="song-cover">
+          <p class="song-name">SING ME TO SLEEP</p>
+        </button>
+
+        <button class="song" alt="song-name">
+          <img src="./Imgs/covers/Electro-light.jpg" class="song-cover">
+          <p class="song-name">ELECTRO LIGHT</p>
+        </button>
+
+        <button class="song" alt="song-name">
+          <img src="./Imgs/covers/Astronomia.jpg" class="song-cover">
+          <p class="song-name">ASTRONOMIA</p>
+        </button>
+      </div>
     </section>
-    <section class="navbar">
-      <input type="text" name="nav" id="navbarr" placeholder="Search Music" <img src="assets/search_icon.svg" alt="">>
+    <section class="music-section">
+      <div class="music-section-title">
+        <p class="music-title">HIP HOP MUSIC</p>
+      </div>
+      <div class="music-list">
+        <button class="song" alt="song-name">
+          <img src="./Imgs/covers/Arc-north.jpg" class="song-cover">
+          <p class="song-name">ARC NORTH</p>
+        </button>
+
+        <button class="song" alt="song-name">
+          <img src="./Imgs/covers/Alosa-pacani-Alone.jpg" class="song-cover">
+          <p class="song-name">ALOSA PACANI ALONE</p>
+        </button>
+
+        <button class="song" alt="song-name">
+          <img src="./Imgs/covers/Veronica-Bravo-Chandelier.jpg" class="song-cover">
+          <p class="song-name">VERONICA BARAVO</p>
+        </button>
+      </div>
     </section>
-    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe aliquid illo vero voluptas obcaecati nihil non necessitatibus perferendis inventore. Soluta ut consectetur alias porro dicta quos neque adipisci quo repudiandae libero iste deleniti veritatis sed qui animi hic non possimus, nobis quisquam commodi quia velit necessitatibus! Dolorem consequatur, eius quasi tempora magnam aperiam quo culpa nam, ab ut aspernatur inventore natus voluptas aut consectetur soluta ducimus omnis iusto id distinctio temporibus aliquam? Ex porro ut illo delectus tempora, quaerat possimus consectetur voluptates nostrum distinctio ab eum facilis nobis praesentium unde ad? Quis facilis, exercitationem ex dolores in numquam magni ab!
+    <section class="music-section">
+      <div class="music-section-title">
+        <p class="music-title">ROCK</p>
+      </div>
+      <div class="music-list">
+        <botton class="song" alt="song-name">
+          <img src="./Imgs/covers/In-the-End.jpg" class="song-cover">
+          <p class="song-name">IN THE END</p>
+        </botton>
 
-  </div>
+        <button class="song" alt="song-name">
+          <img src="./Imgs/covers/Bring-me-to-life.jpg" class="song-cover">
+          <p class="song-name">BRING ME TO LIFE</p>
+        </button>
 
-<!-- Play Section -->
+        <button class="song" alt="song-name">
+          <img src="./Imgs/covers/Du-hast.jpg" class="song-cover">
+          <p class="song-name">DU HAST</p>
+        </button>
 
-  <div class="wrapper">
+        <button class="song" alt="song-name">
+          <img src="./Imgs/covers/What-I-believe.jpg" class="song-cover">
+          <p class="song-name">WHAT I BELIEVE</p>
+        </button>
+      </div>
+    </section>
+    <section class="music-section">
+      <div class="music-section-title">
+        <p class="music-title">POP</p>
+      </div>
+      <div class="music-list">
+        <button class="song" alt="song-name">
+          <img src="./Imgs/covers/Love-yourself.jpg" class="song-cover">
+          <p class="song-name">LOVE YOURSELF</p>
+        </button>
+
+        <button class="song" alt="song-name">
+          <img src="./Imgs/covers/Without-me.jpg" class="song-cover">
+          <p class="song-name">WITHOUT ME</p>
+        </button>
+
+        <button class="song" alt="song-name">
+          <img src="./Imgs/covers/As-it-was.jpg" class="song-cover">
+          <p class="song-name">AS IT WAS</p>
+        </button>
+      </div>
+
+    </section>
+  </main>
+
+  <!-- player section -->
+
+  <section class="music-player-container music-player-hidden">
     <div class="cover">
-      <img src="./assets/rockcover.png" alt="cover of the song">
-    </div>
-
-    <div class="details">
-      <h3 class="details__title">Livin’ On a Prayer</h3>
-      <p class="details__singer">Bon jovi</p>
-      <div class="progress-bar">...</div>
-      <div class="details__time"><span class="time-listening">0:59</span><span class="time-left">4:09</span></div>
-    </div>
-
-    <div class="controls">
-      <button id="playButton">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M8 11.3333L18.2227 4.51823C18.4524 4.36506 18.7628 4.42714 18.916 4.65691C18.9708 4.73904 19 4.83555 19 4.93426V19.0657C19 19.3419 18.7761 19.5657 18.5 19.5657C18.4013 19.5657 18.3048 19.5365 18.2227 19.4818L8 12.6667V19C8 19.5523 7.55228 20 7 20C6.44772 20 6 19.5523 6 19V5C6 4.44772 6.44772 4 7 4C7.55228 4 8 4.44772 8 5V11.3333Z"></path></svg>
+      <button class="player-btn back-btn">
+        <img src="icons/back_icon.svg" alt="play back button">
       </button>
-      <button id="pauseButton">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M19.376 12.4161L8.77735 19.4818C8.54759 19.635 8.23715 19.5729 8.08397 19.3432C8.02922 19.261 8 19.1645 8 19.0658V4.93433C8 4.65818 8.22386 4.43433 8.5 4.43433C8.59871 4.43433 8.69522 4.46355 8.77735 4.5183L19.376 11.584C19.6057 11.7372 19.6678 12.0477 19.5146 12.2774C19.478 12.3323 19.4309 12.3795 19.376 12.4161Z"></path></svg>
-      </button>
-      <button id="stopButton">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M16 12.6667L5.77735 19.4818C5.54759 19.6349 5.23715 19.5729 5.08397 19.3431C5.02922 19.261 5 19.1645 5 19.0657V4.93426C5 4.65812 5.22386 4.43426 5.5 4.43426C5.59871 4.43426 5.69522 4.46348 5.77735 4.51823L16 11.3333V5C16 4.44772 16.4477 4 17 4C17.5523 4 18 4.44772 18 5V19C18 19.5523 17.5523 20 17 20C16.4477 20 16 19.5523 16 19V12.6667Z"></path></svg>
-      </button>
+      <img class="cover-img" src="./Imgs/covers/Faded.jpg" alt="music player song cover">
     </div>
-
-
-  </div>
+    <div class="music-player">
+      <div class="song-detail">
+        <p class="song-d">FADAD</p>
+        <p class="singer-d">Alan walker</p>
+      </div>
+      <div class="music-player-control-panel">
+        <div class="music-time-line">
+          <input class="time-line" type="range" alt="song time line">
+          <div class="music-time-line-time">
+            <span class="time start-time">0:59</span>
+            <span class="time end-time">4:09</span>
+          </div>
+        </div>
+        <div class="control-btns">
+          <button class="player-btn play-back-btn">
+            <img src="icons/prev_icon.svg" alt="skip back button">
+          </button>
+          <button class="player-btn play-btn">
+            <img src="icons/play_icon.svg" alt="play button">
+          </button>
+          <button class="player-btn play-next-btn">
+            <img src="icons/next_icon.svg" alt="skip next button">
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
 </body>
+
 </html>
