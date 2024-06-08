@@ -3,28 +3,28 @@
        "electronic":[
             {
                 "musicTitle":"faded",
-                "musicImage":"./imgs/covers/Faded.jpg",
+                "musicImage":"./Imgs/covers/Faded.jpg",
                 "musicSrc":"./music/Faded.mp3",
                 "musicType":"electronic",
                 "musicArtist":"allan walker"
             },
             {
                 "musicTitle":"sing me to sleep",
-                "musicImage":"./imgs/covers/Sing-me-to-sleep.jpg",
+                "musicImage":"./Imgs/covers/Sing-me-to-sleep.jpg",
                 "musicSrc":"./music/Sing-me-to-sleep.mp3",
                 "musicType":"electronic",
                 "musicArtist":"allan walker"
             },
             { 
                 "musicTitle":"electro light",
-                "musicImage":"./imgs/covers/Electro-light.jpg",
+                "musicImage":"./Imgs/covers/Electro-light.jpg",
                 "musicSrc":"./music/Electro-light.mp3",
                 "musicType":"electronic",
                 "musicArtist":"NCS"
             },
             {
                 "musicTitle":"astronomia",
-                "musicImage":"./imgs/covers/Astronomia.jpg",
+                "musicImage":"./Imgs/covers/Astronomia.jpg",
                 "musicSrc":"./music/Astronomia.mp3",
                 "musicType":"electronic",
                 "musicArtist":"vincetone & tony igy"
@@ -33,21 +33,21 @@
         "hiphop":[
             { 
                 "musicTitle":"arc north",
-                "musicImage":"./imgs/covers/Arc-north.jpg",
+                "musicImage":"./Imgs/covers/Arc-north.jpg",
                 "musicSrc":"./music/Arc-north.mp3",
                 "musicType":"hiphop", 
                 "musicArtist":"arc north"
             },
             {
                 "musicTitle":"alone",
-                "musicImage":"./imgs/covers/Alosa-pacani-Alone.jpg",
+                "musicImage":"./Imgs/covers/Alosa-pacani-Alone.jpg",
                 "musicSrc":"./music/Alosa-pacani-Alone.mp3",
                 "musicType":"hiphop",           
                 "musicArtist":"Alosa pacani"
             },
             {
                 "musicTitle":"Chandelier",
-                "musicImage":"./imgs/covers/Veronica-Bravo-Chandelier.jpg",
+                "musicImage":"./Imgs/covers/Veronica-Bravo-Chandelier.jpg",
                 "musicSrc":"./music/Veronica-Bravo-Chandelier.mp3",
                 "musicType":"hiphop",           
                 "musicArtist":"Veronica Bravo"
@@ -56,29 +56,29 @@
         "rock":[
             {
                 "musicTitle":"in the end",
-                "musicImage":"imgs/covers/In-the-End.jpg",
+                "musicImage":"imGs/covers/In-the-End.jpg",
                 "musicSrc":"./music/In-the-End.mp4",
                 "musicType":"rock", 
                 "musicArtist":"linkin park"
             },
             {
                 "musicTitle":"bring me to life",
-                "musicImage":"./imgs/covers/Bring-me-to-life.jpg",
+                "musicImage":"./Imgs/covers/Bring-me-to-life.jpg",
                 "musicSrc":"./music/bring-me-to-life.mp4",
                 "musicType":"rock",
                 "musicArtist":"Evanescence"
             },
             {
                 "musicTitle":"du hast",
-                "musicImage":"./imgs/covers/Du-hast.jpg",
+                "musicImage":"./Imgs/covers/Du-hast.jpg",
                 "musicSrc":"./music/Du-hast.mp4",
                 "musicType":"rock", 
                 "musicArtist":"rammstein"
             },
             {
                 "musicTitle":"what i believe",
-                "musicImage":"./imgs/covers/What-i-believe.jpg",
-                "musicSrc":"./music/What-i-believe.mp4",
+                "musicImage":"./Imgs/covers/What-i-believe.jpg",
+                "musicSrc":"./music/What-I-believe.mp4",
                 "musicType":"rock",
                 "musicArtist":"skillet"
             }
@@ -86,21 +86,21 @@
         "pop":[
             {
                 "musicTitle":"love yourself",
-                "musicImage":"./imgs/covers/Love-yourself.jpg",
+                "musicImage":"./Imgs/covers/Love-yourself.jpg",
                 "musicSrc":"./music/Love-yourself.mp4",
                 "musicType":"pop", 
                 "musicArtist":"justin bieber"
             },
             {
                 "musicTitle":"without me",
-                "musicImage":"./imgs/covers/Without-me.jpg",
+                "musicImage":"./Imgs/covers/Without-me.jpg",
                 "musicSrc":"./music/Without-me.mp4",
                 "musicType":"pop",
                 "musicArtist":"Halsey"
             },
             {
                 "musicTitle":"as it was",
-                "musicImage":"./imgs/covers/As-it-was.jpg",
+                "musicImage":"./Imgs/covers/As-it-was.jpg",
                 "musicSrc":"./music/As-it-was.mp4",
                 "musicType":"pop", 
                 "musicArtist":"Harry Styles"
