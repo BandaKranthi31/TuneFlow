@@ -22,147 +22,53 @@
     <img class="logo" src="icons/logo.png" alt="logo">
   </header>
 
-  <section class="search-bar-container" alt="search-bar">
-    <input placeholder="Search Music" type="search" name="song-name" class="search-bar">
+  <section class="search-bar-container" alt="search-bar" id="search-bar-element">
+    <input placeholder="Search music" type="search" name="song-name" class="search-bar">
     <label for="music-searchbar" aria-hidden="true" class="search-icon-container">
       <img src="./assets/search_icon.svg" alt="" class="search-icon">
     </label>
   </section>
 
-  <main class="music-categories">
-    <section class="music-section">
-      <div class="music-section-title">
-        <p class="music-title">ELECTRONIC MUSIC</p>
-      </div>
-      <div class="music-list">
-        <button class="song" alt="song-name">
-          <img src="./Imgs/covers/Faded.jpg" class="song-cover">
-          <p class="song-name">FADED</p>
-        </button>
-
-        <button class="song" alt="song-name">
-          <img src="./Imgs/covers/Sing-me-to-sleep.jpg" class="song-cover">
-          <p class="song-name">SING ME TO SLEEP</p>
-        </button>
-
-        <button class="song" alt="song-name">
-          <img src="./Imgs/covers/Electro-light.jpg" class="song-cover">
-          <p class="song-name">ELECTRO LIGHT</p>
-        </button>
-
-        <button class="song" alt="song-name">
-          <img src="./Imgs/covers/Astronomia.jpg" class="song-cover">
-          <p class="song-name">ASTRONOMIA</p>
-        </button>
-      </div>
-    </section>
-    <section class="music-section">
-      <div class="music-section-title">
-        <p class="music-title">HIP HOP MUSIC</p>
-      </div>
-      <div class="music-list">
-        <button class="song" alt="song-name">
-          <img src="./Imgs/covers/Arc-north.jpg" class="song-cover">
-          <p class="song-name">ARC NORTH</p>
-        </button>
-
-        <button class="song" alt="song-name">
-          <img src="./Imgs/covers/Alosa-pacani-Alone.jpg" class="song-cover">
-          <p class="song-name">ALOSA PACANI ALONE</p>
-        </button>
-
-        <button class="song" alt="song-name">
-          <img src="./Imgs/covers/Veronica-Bravo-Chandelier.jpg" class="song-cover">
-          <p class="song-name">VERONICA BARAVO</p>
-        </button>
-      </div>
-    </section>
-    <section class="music-section">
-      <div class="music-section-title">
-        <p class="music-title">ROCK</p>
-      </div>
-      <div class="music-list">
-        <botton class="song" alt="song-name">
-          <img src="./Imgs/covers/In-the-End.jpg" class="song-cover">
-          <p class="song-name">IN THE END</p>
-        </botton>
-
-        <button class="song" alt="song-name">
-          <img src="./Imgs/covers/Bring-me-to-life.jpg" class="song-cover">
-          <p class="song-name">BRING ME TO LIFE</p>
-        </button>
-
-        <button class="song" alt="song-name">
-          <img src="./Imgs/covers/Du-hast.jpg" class="song-cover">
-          <p class="song-name">DU HAST</p>
-        </button>
-
-        <button class="song" alt="song-name">
-          <img src="./Imgs/covers/What-I-believe.jpg" class="song-cover">
-          <p class="song-name">WHAT I BELIEVE</p>
-        </button>
-      </div>
-    </section>
-    <section class="music-section">
-      <div class="music-section-title">
-        <p class="music-title">POP</p>
-      </div>
-      <div class="music-list">
-        <button class="song" alt="song-name">
-          <img src="./Imgs/covers/Love-yourself.jpg" class="song-cover">
-          <p class="song-name">LOVE YOURSELF</p>
-        </button>
-
-        <button class="song" alt="song-name">
-          <img src="./Imgs/covers/Without-me.jpg" class="song-cover">
-          <p class="song-name">WITHOUT ME</p>
-        </button>
-
-        <button class="song" alt="song-name">
-          <img src="./Imgs/covers/As-it-was.jpg" class="song-cover">
-          <p class="song-name">AS IT WAS</p>
-        </button>
-      </div>
-
-    </section>
-  </main>
+  <main class="music-categories" id="music-categories-element"></main>
 
   <!-- player section -->
 
-  <section class="music-player-container music-player-hidden">
+  <section class="music-player-container music-player-hidden" id="music-player-element">
     <div class="cover">
-      <button class="player-btn back-btn">
+      <button class="player-btn back-btn" id="player-back-btn-element">
         <img src="icons/back_icon.svg" alt="play back button">
       </button>
-      <img class="cover-img" src="./Imgs/covers/Faded.jpg" alt="music player song cover">
+      <img class="cover-img" id="cover-img-element" src="./Imgs/covers/Faded.jpg" alt="music player song cover">
     </div>
     <div class="music-player">
       <div class="song-detail">
-        <p class="song-d">FADAD</p>
-        <p class="singer-d">Alan walker</p>
+        <audio src="" id="audio-element"></audio>
+        <p class="song-d" id="current-music-title-element"></p>
+        <p class="singer-d" id="current-music-artist-element"></p>
       </div>
       <div class="music-player-control-panel">
         <div class="music-time-line">
           <input class="time-line" type="range" alt="song time line">
           <div class="music-time-line-time">
-            <span class="time start-time">0:59</span>
-            <span class="time end-time">4:09</span>
+            <span class="time start-time">0:00</span>
+            <span class="time end-time">0:00</span>
           </div>
         </div>
         <div class="control-btns">
-          <button class="player-btn play-back-btn">
+          <button class="player-btn" disabled>
             <img src="icons/prev_icon.svg" alt="skip back button">
           </button>
-          <button class="player-btn play-btn">
-            <img src="icons/play_icon.svg" alt="play button">
+          <button class="player-btn" id="player-btn-element" data-playing="pause">
+            <img src="icons/play_icon.svg" id="player-btn-image-element" alt="play button" height="40" width="40">
           </button>
-          <button class="player-btn play-next-btn">
+          <button class="player-btn" disabled>
             <img src="icons/next_icon.svg" alt="skip next button">
           </button>
         </div>
       </div>
     </div>
   </section>
-</body>
 
+  <script src="./main.js"></script>
+</body>
 </html>
