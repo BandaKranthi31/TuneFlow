@@ -56,7 +56,7 @@
         "rock":[
             {
                 "musicTitle":"in the end",
-                "musicImage":"imGs/covers/In-the-End.jpg",
+                "musicImage":"./Imgs/covers/In-the-End.jpg",
                 "musicSrc":"./music/In-the-End.mp4",
                 "musicType":"rock", 
                 "musicArtist":"linkin park"
@@ -77,7 +77,7 @@
             },
             {
                 "musicTitle":"what i believe",
-                "musicImage":"./Imgs/covers/What-i-believe.jpg",
+                "musicImage":"./Imgs/covers/What-I-believe.jpg",
                 "musicSrc":"./music/What-I-believe.mp4",
                 "musicType":"rock",
                 "musicArtist":"skillet"
