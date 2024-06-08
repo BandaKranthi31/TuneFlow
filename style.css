@@ -32,7 +32,12 @@ html{
 }
 
 body {
+    min-height:100vh;
     background-image: var(--linear-gradient-bg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
 }
 
 .header {
@@ -78,6 +83,10 @@ body {
     padding: 1.4rem;
 }
 
+.search-bar-container-hidden {
+    display:none;
+}
+
 .search-bar {
     color: var(--white);
     font-weight: 400;
@@ -101,13 +110,14 @@ body {
 .music-categories {
     margin-top: 2rem;
     padding: 1rem;
-}
-
-.music-categories {
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
+
+.music-categories-hidden {
+    display:none;
+} 
 
 .music-section {
     display: grid;
@@ -171,6 +181,7 @@ body {
 
 .music-title {
     color: var(--white);
+    text-transform: uppercase;
 }
 
 /* player section */
@@ -181,8 +192,7 @@ body {
 
 .music-player-container {
     display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 60% 40%;
+    grid-template-columns: 1fr;
     background-color: transparent;
 
 }
@@ -204,9 +214,7 @@ body {
 }
 
 .music-player {
-    margin-top: 0 !important;
-    margin-right: 5rem;
-    margin-left: 5rem;
+    padding:2rem;
     color: var(--white);
 }
 
@@ -220,11 +228,13 @@ body {
 .song-detail .song-d {
     font-size: 3rem;
     font-weight: 700;
+    text-transform:capitalize;
     color: var(--accent);
 }
 
 .song-detail .singer-d {
     font-size: 1.5rem;
+    text-transform: capitalize;
 }
 
 .music-time-line {
@@ -246,7 +256,7 @@ body {
     width:1.3rem;
     border-radius:50%;
     border:0.2rem solid var(--accent);
-    box-shadow:-20.4rem 0px 0px 20rem var(--accent);
+    box-shadow:-40.4rem 0px 0px 40rem var(--accent);
     background-color:var(--primary);
 
 }
@@ -287,25 +297,7 @@ body {
     cursor: pointer;
 }
 
-.player-btn.play-btn {
-    padding-left: 1.6rem;
-    padding-right: 1.4rem;
+.player-btn:disabled {
+    background-color:gray;
+    opacity: 0.5;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
